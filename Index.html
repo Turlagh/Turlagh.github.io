@@ -1,7 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>UI/HX Designer</p>
+                <h1>Just a small town girl, <br> </h1>
+            </div>
+        </div>
+    </div>
+    <div id = "about">
+        <div class="container">
+            <div class="row">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/Personal-pic.jpg">
+                    </div>
+                    <div class="about-col-1">
+                        <h2 class="sub-title">About Me</h2>
+                        <p>
+                            Once upon a time, a long long time ago in a galaxy far away
+                            There lived a hermit called bobo the trobbo, who would go around
+                            and rob the absolute trobhonies off the trogobolog.
+                        </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI?UX</span><br>Designing Web/App Interfaces</li>
+                                <li><span>UI?UX</span><br>Designing Web/App Interfaces</li>
+                                <li><span>UI?UX</span><br>Designing Web/App Interfaces</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Hi</span><br>Designing Web/App Interfaces</li>
+                                <li><span>Bye</span><br>Designing Web/App Interfaces</li>
+                                <li><span>Gone</span><br>Designing Web/App Interfaces</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>1</span><br>Designing Web/App Interfaces</li>
+                                <li><span>2</span><br>Designing Web/App Interfaces</li>
+                                <li><span>3</span><br>Designing Web/App Interfaces</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+<script>
+
+    var tablinks = document.getElementsByClassName
+</script>
 </body>
 </html>
